@@ -1,0 +1,25 @@
+#teamTeam{
+    position: center;
+}
+#bios{
+    background-color: purple;
+    width: 15vw;
+    height: 10vh;
+    padding: 2px;
+    border: none;
+    margin-top: 1%;
+    left: 60%;
+    position: absolute;
+    margin-bottom: 10px;
+}
+#presentations{
+    background-color: purple;
+    width: 15vw;
+    height: 10vh;
+    padding: 2px;
+    border: none;
+    margin-top: 1%;
+    left: 25%;
+    position: absolute;
+    margin-bottom: 10px;
+}
