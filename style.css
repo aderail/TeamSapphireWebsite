@@ -1,0 +1,49 @@
+
+/* Top Bar Styling */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  /* background-color: ; */
+  padding-bottom: 2rem;
+}
+
+/* Remove default list styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Style the links */
+nav a {
+  text-decoration: none;
+  color: #9856a8; /*link color*/
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #3c98b4; /*color when hovering*/
+}
+
+/* Style the Slide */
+.slide-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+/* Image Styling */
+.member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /*keeps aspect ratio and crops if needed*/
+  border-radius: 50%; /*makes it circle*/
+}
