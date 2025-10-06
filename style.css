@@ -1,7 +1,8 @@
 
-
-
 /* Top Bar Styling */
+header {
+  padding-bottom: 2rem;
+}
 
 /* Remove default list styling */
 nav ul {
@@ -21,4 +22,12 @@ nav a {
 
 nav a:hover {
   color: #3c98b4; /*color when hovering*/
+}
+
+/* Image Styling */
+.member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /*keeps aspect ratio and crops if needed*/
+  border-radius: 50%; /*makes it circle*/
 }
