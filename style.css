@@ -1,0 +1,24 @@
+
+
+
+/* Top Bar Styling */
+
+/* Remove default list styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* Style the links */
+nav a {
+  text-decoration: none;
+  color: #9856a8; /*link color*/
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #3c98b4; /*color when hovering*/
+}
