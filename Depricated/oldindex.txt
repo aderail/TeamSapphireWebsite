@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "en">
+<div id = "wholeDiv">
+<head>
+    <meta charset = "UTF-8">
+    <h1 style = "text-align: center" id = "teamName">Team Sapphire</h1>
+    <link rel = "stylesheet" href = "index.css">
+</head>
+
+<body>
+
+    <div id = "buttonBios">
+        <a href = "bios/bios.html">
+            <button id = "bios">Bios</button>
+        </a>
+    </div>
+    <div id = "buttonPresentations">
+        <a href = "presentations/presentations.html">
+            <button id = "presentations">Presentations</button>
+        </a>
+    </div>
+</body>
+
+</div>
