@@ -34,6 +34,11 @@ nav a:hover {
   text-align: center;
 }
 
+/* Elevator Pitch section */
+#elevator-pitch {
+  text-align: center;
+}
+
 /* Style the Slide */
 .slide-section {
   display: flex;
