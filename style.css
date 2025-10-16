@@ -30,15 +30,6 @@ nav a:hover {
   color: #3c98b4; /*color when hovering*/
 }
 
-#problem {
-  text-align: center;
-}
-
-/* Elevator Pitch section */
-#elevator-pitch {
-  text-align: center;
-}
-
 /* Style the Slide */
 .slide-section {
   display: flex;
