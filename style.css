@@ -30,6 +30,17 @@ nav a:hover {
   color: #3c98b4; /*color when hovering*/
 }
 
+/* Style Hover Menu */
+.menu-label {
+  padding: 10px;
+  display: block;
+  cursor: default;
+}
+
+.menu-label:hover {
+  background: #9856a8
+}
+
 /* Style the Slide */
 .slide-section {
   display: flex;
