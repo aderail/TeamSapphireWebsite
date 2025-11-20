@@ -34,7 +34,12 @@ nav a:hover {
 .menu-label {
   padding: 10px;
   display: block;
+  color:#9856a8;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1;
   cursor: default;
+
 }
 
 .menu-label:hover {
