@@ -38,6 +38,7 @@ nav a:hover {
   font-weight: bold;
   text-decoration: none;
   line-height: 1;
+  vertical-align: top;
   cursor: default;
 
 }
