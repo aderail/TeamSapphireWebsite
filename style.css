@@ -34,11 +34,43 @@ nav a:hover {
 .menu-label {
   padding: 10px;
   display: block;
+  color:#9856a8;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1;
+  vertical-align: top;
   cursor: default;
+
 }
 
 .menu-label:hover {
   background: #9856a8
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  background: white;
+  padding: 10px 0;
+  margin: 0;
+
+  list-style: none;
+  flex-direction: column;
+  gap: 0;
+
+  border: 1px solid #3c98b4;
+  z-index: 2000;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .submenu {
+  display: flex;
 }
 
 /* Style the Slide */
