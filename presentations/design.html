@@ -32,79 +32,100 @@
         </nav>
     </header>
 
-    <main>
-        <section class="slide-section">
-            <h1>Google Slide</h1>
-            <p>Below is our active design slideshow for SleepSync</p>
-
+    <main class="presentation-main">
+        <section class="page-section presentation-section">
             <h2>Current Working Design</h2>
-            <iframe
-                src="https://docs.google.com/presentation/d/1qFw0d_bzDKasGfiOoTaeQOXpLPpTB-jhcDETPM8Osas/edit?usp=drive_link" 
-                frameborder="0" 
-                width="960" 
-                height="569" 
-                allowfullscreen="true" 
-                mozallowfullscreen="true" 
-                webkitallowfullscreen="true">
-            </iframe>
-          
-
-        <h2>Final Design Presentation Script</h2>
-        </section>
-        <section class ="script">
-            <iframe src ="Presentation Outline 2.pdf" width="100%" height="600px"></iframe>
+            <p>Below is our active design slideshow for SleepSync.</p>
+            <div class="embed-wrapper">
+                <iframe
+                    class="embed-frame"
+                    title="Current Working Design Slides"
+                    src="https://docs.google.com/presentation/d/1qFw0d_bzDKasGfiOoTaeQOXpLPpTB-jhcDETPM8Osas/edit?usp=drive_link" 
+                    loading="lazy"
+                    tabindex="-1"
+                    allowfullscreen="true" 
+                    mozallowfullscreen="true" 
+                    webkitallowfullscreen="true">
+                </iframe>
+            </div>
         </section>
 
+        <section class="page-section presentation-section">
+            <h2>Final Design Presentation Script</h2>
+            <div class="embed-wrapper">
+                <iframe class="embed-frame" title="Final Design Presentation Script" src="Presentation Outline 2.pdf" loading="lazy" tabindex="-1"></iframe>
+            </div>
+        </section>
+
+        <section class="page-section presentation-section">
             <h2>Design Iteration 0</h2>
-            <iframe
-                src="" 
-                frameborder="0" 
-                width="960" 
-                height="569" 
-                allowfullscreen="true" 
-                mozallowfullscreen="true" 
-                webkitallowfullscreen="true">
-            </iframe>
+            <p>Missing Link</p>
+        </section>
 
+        <section class="page-section presentation-section">
             <h2>Design Iteration 1</h2>
-            <iframe
-                src="https://docs.google.com/presentation/d/1UbAqVXHJYFC3FNao1_W4_Nt06RlN7weoPtW554-mRA8/edit?usp=sharing" 
-                frameborder="0" 
-                width="960" 
-                height="569" 
-                allowfullscreen="true" 
-                mozallowfullscreen="true" 
-                webkitallowfullscreen="true">
-            </iframe>
+            <div class="embed-wrapper">
+                <iframe
+                    class="embed-frame"
+                    title="Design Iteration 1 Slides"
+                    src="https://docs.google.com/presentation/d/1UbAqVXHJYFC3FNao1_W4_Nt06RlN7weoPtW554-mRA8/edit?usp=sharing" 
+                    loading="lazy"
+                    tabindex="-1"
+                    allowfullscreen="true" 
+                    mozallowfullscreen="true" 
+                    webkitallowfullscreen="true">
+                </iframe>
+            </div>
+        </section>
 
+        <section class="page-section presentation-section">
             <h2>Design Iteration 2</h2>
-            <iframe
-                src="https://docs.google.com/presentation/d/1s2g-gz-R88l8H-L3LhNUgITSE0TcLZFYRgizqpsLR7g/edit?usp=sharing" 
-                frameborder="0" 
-                width="960" 
-                height="569" 
-                allowfullscreen="true" 
-                mozallowfullscreen="true" 
-                webkitallowfullscreen="true">
-            </iframe>
+            <div class="embed-wrapper">
+                <iframe
+                    class="embed-frame"
+                    title="Design Iteration 2 Slides"
+                    src="https://docs.google.com/presentation/d/1s2g-gz-R88l8H-L3LhNUgITSE0TcLZFYRgizqpsLR7g/edit?usp=sharing" 
+                    loading="lazy"
+                    tabindex="-1"
+                    allowfullscreen="true" 
+                    mozallowfullscreen="true" 
+                    webkitallowfullscreen="true">
+                </iframe>
+            </div>
+        </section>
 
+        <section class="page-section presentation-section">
             <h2>Design Iteration 3</h2>
-            <iframe
-                src="https://docs.google.com/presentation/d/16kcw9L273GPBeV4Mr7UeYtPiWhQHT7a6ZLycq4Pomqw/edit?usp=sharing" 
-                frameborder="0" 
-                width="960" 
-                height="569" 
-                allowfullscreen="true" 
-                mozallowfullscreen="true" 
-                webkitallowfullscreen="true">
-            </iframe>
+            <div class="embed-wrapper">
+                <iframe
+                    class="embed-frame"
+                    title="Design Iteration 3 Slides"
+                    src="https://docs.google.com/presentation/d/16kcw9L273GPBeV4Mr7UeYtPiWhQHT7a6ZLycq4Pomqw/edit?usp=sharing" 
+                    loading="lazy"
+                    tabindex="-1"
+                    allowfullscreen="true" 
+                    mozallowfullscreen="true" 
+                    webkitallowfullscreen="true">
+                </iframe>
+            </div>
+        </section>
 
     </main>
 
+    <script>
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+      window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+      window.addEventListener('load', () => {
+        setTimeout(() => window.scrollTo({ top: 0, left: 0, behavior: 'auto' }), 200);
+      });
+    </script>
+
     <footer>
-        <li><a href="https://www.odu.edu/">ODU</a></li>
-        <li><a href="https://www.odu.edu/computer-science">CS Department</a></li>
-        <p>Team Sapphire: SleepSync</p>
+        <a href="https://www.odu.edu/">ODU</a>
+        <a href="https://www.odu.edu/computer-science">CS Department</a>
+        <span>Team Sapphire: SleepSync</span>
     </footer>
 
 </body>
