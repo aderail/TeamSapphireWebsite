@@ -125,6 +125,71 @@ footer span {
   box-shadow: none;
 }
 
+.algorithm-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.algorithm-section img {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.algorithm-section p {
+  text-indent: 0;
+  text-align: center;
+  margin: 0 0 0.75rem;
+}
+
+.MFC-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.MFC-section p {
+  text-indent: 0;
+  margin: 0;
+}
+
+.mfc-diagram {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  display: block;
+  margin: 0.5rem auto 0;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.risks-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.risks-section img {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.risks-section p {
+  text-indent: 0;
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+
 .attribution {
   text-indent: 0;
   text-align: center;
