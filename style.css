@@ -471,3 +471,31 @@ nav a:hover {
   text-indent: 0;
   text-align: center;
 }
+
+.userStories-section h3 {
+  color: #d9abfe;
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.userStories-section h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.userStories-section p {
+  text-indent: 1.5rem;
+  margin: 0.4rem 0 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  text-align: center;
+}
+
+.userStories-section p:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.user-stories-content {
+  text-align: center;
+}
