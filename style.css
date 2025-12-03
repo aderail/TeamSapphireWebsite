@@ -36,7 +36,7 @@ header {
   /* background-color: ; */
   padding-bottom: 2rem;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1250px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -50,7 +50,7 @@ header h1 {
 main,
 footer {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1250px;
   margin: 0 auto;
   padding: 0 1.5rem 2rem;
   box-sizing: border-box;
@@ -147,10 +147,68 @@ footer span {
   margin: 0 0 0.75rem;
 }
 
+.deliverables-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.4rem;
+}
+
+.deliverables-section ul {
+  margin: 0.25rem 0 0;
+  padding-left: 0;
+  list-style-position: inside;
+  text-align: center;
+}
+
+.deliverables-section li {
+  margin: 0.15rem 0;
+}
+
+.solution-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.solution-section p {
+  text-indent: 1.5rem;
+  margin: 0.15rem 0 0;
+  text-align: left;
+}
+
+.solution-section h2 {
+  margin: 0 0 0.35rem;
+}
+
+.solution-graphic {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.solution-section ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.solution-section li {
+  margin: 0.1rem 0;
+}
+
 .MFC-section {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  align-items: center;
+  text-align: center;
 }
 
 .MFC-section p {
@@ -181,6 +239,8 @@ footer span {
   height: auto;
   display: block;
   border-radius: 10px;
+  padding: 0.5rem;
+  background: #c5d3ff;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -246,13 +306,14 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 20px;
+  gap: 16px;
   justify-content: center;
   align-items: center;
 }
 
 nav {
   width: 100%;
+  max-width: 1250px;
   display: flex;
   justify-content: center;
   padding: 0.75rem 1.25rem;
