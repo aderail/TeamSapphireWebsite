@@ -1,6 +1,3 @@
--- SleepSync Database Schema
--- Team Sapphire | CS410/CS411W
-
 -- Users (central hub table)
 CREATE TABLE Users (
     UserID      SERIAL PRIMARY KEY,
