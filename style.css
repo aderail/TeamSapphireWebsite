@@ -3,7 +3,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: url('SleepSyncBackground.png') center / cover no-repeat fixed;
+  background: url('images/SleepSyncBackground.png') center / cover no-repeat fixed;
   color: #fff;
 }
 
@@ -302,102 +302,6 @@ footer span {
   line-height: 1.4;
 }
 
-/* Remove default list styling */
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  align-items: center;
-}
-
-nav {
-  width: 100%;
-  max-width: 1250px;
-  display: flex;
-  justify-content: center;
-  padding: 0.75rem 1.25rem;
-  margin-top: 0.75rem;
-  background: rgba(152, 86, 168, 0.15);
-  border: 2px solid #fff;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.05) inset;
-  backdrop-filter: blur(4px);
-  box-sizing: border-box;
-}
-
-/* Style the links */
-nav a {
-  text-decoration: none;
-  color: #fff; /*link color*/
-  font-weight: bold;
-  font-size: 1.25rem;
-  -webkit-text-stroke: 0;
-  text-shadow: none;
-}
-
-nav a:hover {
-  color: #d9abfe; /*hover color*/
-  text-shadow: 0 0 2px #d9abfe;
-}
-
-/* Style Hover Menu */
-.menu-label {
-  padding: 10px;
-  display: flex;
-  color:#fff;
-  font-weight: bold;
-  font-size: 1.25rem;
-  text-decoration: none;
-  align-items: center;
-  -webkit-text-stroke: 0;
-  text-shadow: none;
-}
-
-.menu-label:hover {
-  background: #9856a8
-}
-
-.submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-
-  background: rgba(197, 211, 255, 0.9); /* header blue */
-  padding: 10px 0;
-  margin: 0;
-
-  list-style: none;
-  flex-direction: column;
-  gap: 0;
-
-  border: 1px solid #fff;
-  z-index: 2000;
-}
-
-.submenu a {
-  color: #fff;
-  padding: 0.5rem 1rem;
-  display: block;
-  text-align: left;
-}
-
-.submenu a:hover {
-  background: rgba(197, 211, 255, 1);
-  color: #fff;
-}
-
-.dropdown {
-  position: relative;
-}
-
-.dropdown:hover .submenu {
-  display: flex;
-}
-
 /* Style the Slide */
 .slide-section {
   display: flex;
@@ -500,4 +404,90 @@ nav a:hover {
 
 .user-stories-content {
   text-align: center;
+}
+/* Hamburger button */
+.menu-btn {
+  font-size: 28px;
+  cursor: pointer;
+  padding: 15px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+/* Sidebar container */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #222;
+  overflow: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  z-index: 999;
+}
+
+/* Sidebar list */
+.sidebar ul {
+  list-style: none;
+  padding: 12px, 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main links */
+.sidebar a {
+  display: block;
+  padding: 20px 28px;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar a:hover {
+  background-color: #444;
+}
+
+/* Dropdown container */
+.sidebar .dropdown {
+  position: relative;
+}
+
+/* Submenu (hidden by default) */
+.sidebar .submenu {
+  display: none;
+  flex-direction: column;
+  margin: 0;
+  padding-left: 28px;
+}
+
+/* Show submenu on hover */
+.sidebar .dropdown:hover .submenu {
+  display: flex;
+}
+
+/* Submenu links */
+.sidebar .submenu a {
+  padding: 12px 20px;
+  font-size: 0.95rem;
+}
+
+.sidebar .menu-label {
+  display: block;
+  padding: 12px 20px;
+  color: #c5d3ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
 }

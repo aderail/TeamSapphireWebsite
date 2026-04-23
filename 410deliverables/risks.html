@@ -1,12 +1,13 @@
-﻿<!Doctype html>
+<!Doctype html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SleepSync | Solution</title>
+  <title>SleepSync</title>
 
-  <link rel="stylesheet" href="style.css">
+  <!-- CSS LINK-->
+  <link rel="stylesheet" href="../style.css"> <!--Old was index.css, integrated into one for standardization-->
 </head>
 <script>
   function openMenu() {
@@ -20,7 +21,7 @@
 <body>
   <span class="menu-btn" onclick="openMenu()">☰</span>
   <header>
-      <h1>Team Sapphire - SleepSync</h1>
+      <h1>Risks</h1>
       <nav id="sidebar" class="sidebar">
         <span class="close-btn" onclick="closeMenu()">×</span>
 
@@ -70,33 +71,25 @@
             </li>
         </ul>
     </nav>
-  </header>
+    </header>
 
   <main>
-    <section class="page-section labs-section">
-      <h2>Lab 1</h2>
-      <p>Below is our Lab 1 submission for SleepSync.</p>
-      <div class="embed-wrapper">
-          <iframe
-              class="embed-frame"
-              title="Lab 1"
-              src="https://docs.google.com/document/d/17-Z5M9kTfECil07rzBoRy5_ofJaXH0Pv/edit?usp=sharing&ouid=110553874218248461123&rtpof=true&sd=true" 
-              loading="lazy"
-              tabindex="-1"
-              allowfullscreen="true" 
-              mozallowfullscreen="true" 
-              webkitallowfullscreen="true">
-          </iframe>
-      </div>
-  </section>
+    <section id="risks" class="page-section risks-section">
+      <h2>Risks</h2>
+      <img src="risksImages/userRisks.png" alt="User Risks" loading="lazy"/>
+      <p>User Risks and their liklihood and impact</p>
+      <img src="risksImages/customerRisks.png" alt="Customer Risks" loading="lazy"/>
+      <p>Customer Risks and their liklihood and impact</p>
+      <img src="risksImages/technicalRisks.png" alt="Technical Risks" loading="lazy"/>
+      <p>Technical Risks and their liklihood and impact</p>
+    </section>
   </main>
-
-  <footer>
-    <a href="https://www.odu.edu/">ODU</a>
-    <a href="https://www.odu.edu/computer-science">CS Department</a>
-    <span>Team Sapphire: SleepSync</span>
-  </footer>
-</body>
-
-</html>
-
+    
+      <footer>
+        <a href="https://www.odu.edu/">ODU</a>
+        <a href="https://www.odu.edu/computer-science">CS Department</a>
+        <span>Team Sapphire: SleepSync</span>
+      </footer>
+    </body>
+    
+    </html>
