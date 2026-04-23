@@ -29,6 +29,8 @@ p {
 
 /* Top Bar Styling */
 header {
+  position: relative;
+  z-index: 1000;
   display: flex;
   flex-direction: column;
   align-items: center;
