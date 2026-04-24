@@ -114,6 +114,7 @@ footer span {
 }
 
 .problem-section {
+  font-size: 24px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -170,11 +171,11 @@ footer span {
 }
 
 .solution-section {
+  font-size: 24px;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
   align-items: center;
-  text-align: center;
 }
 
 .solution-section p {
@@ -203,6 +204,7 @@ footer span {
 }
 
 .solution-section li {
+  text-align: left;
   margin: 0.1rem 0;
 }
 
