@@ -1,0 +1,124 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SleepSync</title>
+
+  <!-- CSS LINK-->
+  <link rel="stylesheet" href="../style.css"> <!--Old was index.css, integrated into one for standardization-->
+</head>
+<script>
+  function openMenu() {
+    document.getElementById("sidebar").style.width = "260px";
+  }
+  
+  function closeMenu() {
+    document.getElementById("sidebar").style.width = "0";
+  }
+  </script>
+<body>
+  <span class="menu-btn" onclick="openMenu()">☰</span>
+  <header>
+      <h1>Sprint Plan</h1>
+      <nav id="sidebar" class="sidebar">
+        <span class="close-btn" onclick="closeMenu()">×</span>
+
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/team.html">Team</a></li>
+            <li><a href="/problem.html">Problem</a></li>
+            <li><a href="/solution.html">Solution</a></li>
+        
+            <li class="dropdown">
+                <span class="menu-label">410 Deliverables</span>
+                <ul class="submenu">
+                    <li><a href="/410deliverables/algorithms.html">Algorithms</a></li>
+                    <li><a href="/410deliverables/MFC.html">Main Functional Components</a></li>
+                    <li><a href="/410deliverables/risks.html">Risks</a></li>
+                </ul>
+            </li>
+        
+            <li class="dropdown">
+                <span class="menu-label">411 Deliverables</span>
+                <ul class="submenu">
+                    <li><a href="/411deliverables/deliverables.html">Deliverables</a></li>
+                    <li><a href="/411deliverables/weeklyReports.html">Weekly Reports</a></li>
+                    <li><a href="/411deliverables/sprint.html">Sprint Plan</a></li>
+                </ul>
+            </li>
+        
+            <li class="dropdown">
+                <span class="menu-label">Presentations</span>
+                <ul class="submenu">
+                    <li><a href="/presentations/design.html">Design</a></li>
+                    <li><a href="/presentations/feasibility.html">Feasibility</a></li>
+                    <li><a href="/presentations/prototype.html">Prototype</a></li>
+                    <li><a href="/presentations/final.html">Final</a></li>
+                </ul>
+            </li>
+        
+            <li><a href="/labs.html">Labs</a></li>
+            <li><a href="/poster.html">Poster</a></li>
+            <li><a href="/userStories.html">User Stories</a></li>
+        
+            <li class="dropdown">
+                <span class="menu-label">Resources</span>
+                <ul class="submenu">
+                    <li><a href="/resources/glossary.html">Glossary</a></li>
+                    <li><a href="/resources/references.html">References</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section id="userStories" class="page-section userStories-section">
+            
+            <div class="user-stories-content">
+              <h3>Sprint 1</h3>
+              As a heavy sleeper, I want to have options for multiple alarms, so that if I miss one there are backups.<br>
+              As a night owl, I want to have clear reminders for bedtime synced across devices so that I don't lose track of time.<br>
+              
+              <h3>Sprint 2</h3>
+              As a light sleeper, I want to have the ability to add my own noise and sounds I am comfortable with beyond standard color noise.<br>
+              As a night owl, I would like to have the ability to set my screen's brightness and reduce blue light automatically at a set time to reduce headaches.<br>
+              As a night owl, I want to set up the app to automatically begin silencing notifications before my wind down period so that I am less tempted to be distracted by my phone during wind down.<br>
+              As a light sleeper, I want to set up an app mode that will silence all notifications and activities except for emergencies so I can fall asleep without interruptions.<br>
+              
+              <h3>Sprint 3</h3>
+              As a restless sleeper, I would like the amount of sleep I should be getting to be calculated.<br>
+              As a restless sleeper, I want my audio to be tracked to ensure I had a good night's sleep.<br>
+              As a restless/consistent sleeper, I want to provide information about my gender, medication usage, and drug and alcohol usage to better calculate my ideal sleep.<br>
+              As a health conscious user, I want to see what my sleep consistency score is and how it trends over a period of time.<br>
+              
+              <h3>Sprint 4</h3>
+              As a restless/consistent sleeper, I want a calming interface when using the application.<br>
+              As a shift worker, I want options tailored to my sleep schedule being during the day and not at night.<br>
+              As a shift worker, I want to input my rotating sleep schedule so that the app can adjust my recommendations based off my shift cycles.<br>
+              
+              <h3>Sprint 5</h3>
+              As a restless sleeper, I want to be able to connect with others that face similar issues and learn how they deal with it.<br>
+              As a consistent sleeper, I would like to have access to information about what I can do to maintain my good sleeping habits and improve them if possible.<br>
+              As a restless/consistent sleeper, if I forget to use the application I want reminders on why good sleep is important and the consequences of not getting enough sleep.<br>
+              
+              <h3>Sprint 6</h3>
+              As a student, I want to have reminders set up for important tests so I can get extra sleep when I need it without that becoming my schedule.<br>
+              As a student, I want to receive warnings when my late night studying could affect my sleep performance, so that I can make better decisions about my sleep schedule.<br>
+              As a student, I want to block or lock out social media apps during my sleep hours so that I am not tempted to scroll before bed.<br>
+              As a creator, I want my sleep aid content to be shared.<br>
+              As a parent, I want to have a separate account for me and my child so I can have separate accounts for both of us.<br>
+            </div>
+          </section>
+      </main>
+    
+      <footer>
+        <a href="https://www.odu.edu/">ODU</a>
+        <a href="https://www.odu.edu/computer-science">CS Department</a>
+        <span>Team Sapphire: SleepSync</span>
+      </footer>
+    </body>
+    
+    </html>
