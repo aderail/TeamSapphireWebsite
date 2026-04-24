@@ -9,8 +9,17 @@
   <!-- CSS LINK-->
   <link rel="stylesheet" href="../style.css">
 </head>
-
+<script>
+    function openMenu() {
+      document.getElementById("sidebar").style.width = "260px";
+    }
+    
+    function closeMenu() {
+      document.getElementById("sidebar").style.width = "0";
+    }
+    </script>
 <body>
+    <span class="menu-btn" onclick="openMenu()">☰</span>
   <header>
     <h1>SleepSync Team</h1>
               <nav>
