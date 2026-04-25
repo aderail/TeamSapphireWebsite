@@ -1,0 +1,89 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SleepSync | Problem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  function openMenu() {
+    document.getElementById("sidebar").style.width = "260px";
+  }
+  
+  function closeMenu() {
+    document.getElementById("sidebar").style.width = "0";
+  }
+  </script>
+<body>
+  <span class="menu-btn" onclick="openMenu()">☰</span>
+  <header>
+      <h1>What's The Problem?</h1>
+      <nav id="sidebar" class="sidebar">
+        <span class="close-btn" onclick="closeMenu()">×</span>
+            <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./team.html">Team</a></li>
+            <li><a href="./problem.html">Problem</a></li>
+            <li><a href="./solution.html">Solution</a></li>
+        
+            <li class="dropdown">
+                <span class="menu-label">410 Deliverables</span>
+                <ul class="submenu">
+                    <li><a href="./410deliverables/algorithms.html">Algorithms</a></li>
+                    <li><a href="./410deliverables/MFC.html">Main Functional Components</a></li>
+                    <li><a href="./410deliverables/risks.html">Risks</a></li>
+                </ul>
+            </li>
+        
+            <li class="dropdown">
+                <span class="menu-label">411 Deliverables</span>
+                <ul class="submenu">
+                    <li><a href="./411deliverables/deliverables.html">Deliverables</a></li>
+                    <li><a href="./411deliverables/weeklyReports.html">Weekly Reports</a></li>
+                    <li><a href="./411deliverables/sprint.html">Sprint Plan</a></li>
+                </ul>
+            </li>
+        
+            <li class="dropdown">
+                <span class="menu-label">Presentations</span>
+                <ul class="submenu">
+                    <li><a href="./presentations/design.html">Design</a></li>
+                    <li><a href="./presentations/feasibility.html">Feasibility</a></li>
+                    <li><a href="./presentations/prototype.html">Prototype</a></li>
+                    <li><a href="./presentations/final.html">Final</a></li>
+                </ul>
+            </li>
+        
+            <li><a href="./labs.html">Labs</a></li>
+            <li><a href="./poster.html">Poster</a></li>
+            <li><a href="./userStories.html">User Stories</a></li>
+        
+            <li class="dropdown">
+                <span class="menu-label">Resources</span>
+                <ul class="submenu">
+                    <li><a href="./resources/glossary.html">Glossary</a></li>
+                    <li><a href="./resources/references.html">References</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="poster" class="page-section problem-section">
+      <h2>SleepSync Poster</h2>
+      <img src="images/SleepSyncPoster.png" width="800" heigth="1000" alt="Poster detailing information on SleepSync"/>
+    </section>
+
+  </main>
+
+  <footer>
+    <a href="https://www.odu.edu/">ODU</a>
+    <a href="https://www.odu.edu/computer-science">CS Department</a>
+    <span>Team Sapphire: SleepSync</span>
+  </footer>
+</body>
+
+</html>
