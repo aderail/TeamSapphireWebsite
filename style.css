@@ -494,3 +494,48 @@ footer span {
   font-size: 30px;
   cursor: pointer;
 }
+.center-img {
+  display: block;
+  margin: 20px auto;   /* centers it horizontally */
+  width: 70%;          /* scales nicely with screen */
+  max-width: 900px;    /* prevents it from getting huge */
+}
+.wiki-link {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 16px;
+  background-color: #24292f;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+.wiki-link:hover {
+  background-color: #444c56;
+}
+.references li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.references a {
+  color: #2a6df4;
+  text-decoration: none;
+}
+
+.references a:hover {
+  text-decoration: underline;
+}
+.references-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.references-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
